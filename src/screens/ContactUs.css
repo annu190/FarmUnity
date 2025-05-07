@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .contact-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  /* Removed green underline here */
+  .main-heading {
+    font-size: 40px;
+    color: #2e5f2e;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Prevent any default or inherited underline from frameworks */
+  .section-title::after,
+  .main-heading::after,
+  .section-title::before,
+  .main-heading::before {
+    content: none !important;
+    display: none !important;
+    border: none !important;
+  }
+  
+  .contact-container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1100px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .contact-left {
+    padding: 2rem;
+  }
+  
+  .contact-left h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-left p {
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .input-field,
+  .textarea-field {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus,
+  .textarea-field:focus {
+    border-color: #4caf50;
+  }
+  
+  .textarea-field {
+    resize: none;
+    height: 120px;
+  }
+  
+  .submit-btn {
+    background-color: #2b8b3a;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #33923a;
+  }
+  
+  .contact-right {
+    background-color: #59956a;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("C:\Users\Annu Mishra\FarmUnity\farmunity\public\images\contact.png"); /* Add a URL or keep blank */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75vh;
+  }
+  

@@ -1,0 +1,80 @@
+/* Wrapper for SearchStorage */
+.search-storage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3rem 1rem;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #222;
+}
+
+/* Search bar container */
+.search-bar {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.search-bar input {
+    padding: 10px;
+    margin-right: 10px;
+    flex: 1;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Styling for storage list */
+.storage-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 600px;  /* Reduced max-width */
+    align-items: center;
+}
+
+/* Styling for individual storage item */
+.storage-item {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;  /* Reduced width */
+    text-align: center;  /* Centered text */
+}
+
+/* Styling for text content inside storage-item */
+.storage-item p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Styling for book button inside storage-item */
+.storage-item button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: #2e5f3e; /* Green button color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.storage-item button:hover {
+    background-color: #234c30;
+}

@@ -1,0 +1,96 @@
+/* Styling for the search bar */
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  .search-bar button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styling for the land card */
+  .land-card {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the bottom navigation */
+  .bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .bottom-nav button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styling for the submit button in the land form */
+  .land-submit-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Styling for the back links section with space between the buttons */
+  .land-back-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Styling for individual back buttons */
+  .land-back-links button,
+  .land-back-links a {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    text-decoration: none;
+  }
+  
+  /* Optional: Hover effect for buttons */
+  .land-back-links button:hover,
+  .land-back-links a:hover {
+    background-color: #e53935;
+  }
+  
+  /* Updated Back to Services button (Blue, smaller height & full width) */
+  .back-to-services-btn {
+    padding: 6px 0;                      /* Smaller height */
+    width: 100%;                         /* Full width */
+    background-color: #9a3e01;           /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-align: center;
+    cursor: pointer;
+    gap:5rem;
+    margin-top: 2rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .back-to-services-btn:hover {
+    background-color: #914701;           /* Darker blue on hover */
+  }
+  

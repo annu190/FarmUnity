@@ -1,0 +1,121 @@
+/* Wraps the entire form section */
+.land-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 100px); /* assumes navbar height is ~100px */
+  background-color: #ffffff;
+  padding: 100px 1rem 1rem; /* top padding pushes it below navbar */
+  box-sizing: border-box;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* The card container for the form */
+.land-form-container {
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem 3rem;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto; /* Centers the container horizontally */
+}
+
+/* Heading styles */
+.land-form-container h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Subtitle text */
+.land-form-container p {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Form layout */
+.land-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Labels */
+.land-form label {
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+/* Inputs, dropdowns, and textarea */
+.land-form input,
+.land-form select,
+.land-form textarea {
+  padding: 0.75rem 1rem;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+/* Focus style */
+.land-form input:focus,
+.land-form select:focus,
+.land-form textarea:focus {
+  border-color: #4caf50;
+}
+
+/* Textarea size */
+.land-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Buttons container - make them align horizontally */
+.land-form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+
+/* Submit button */
+.land-submit-btn {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex: 1;
+}
+
+/* Submit button hover */
+.land-submit-btn:hover {
+  background-color: #388e3c;
+}
+
+/* Back to Services button */
+.back-services-btn {
+  background-color: #874d039f; /* Blue background */
+  color: white; /* White text */
+  font-size: 16px; /* Standard text size */
+  padding: 12px 20px; /* Padding for the button */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  flex: 1;
+}
+
+/* Back to Services button hover */
+.back-services-btn:hover {
+  background-color: #573302; /* Darker blue when hovered */
+}
