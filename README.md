@@ -1,15 +1,13 @@
-# Getting Started with Create React App
+# 🌾 FarmUnity - Empowering Agriculture Through Technology
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**FarmUnity** is a MERN stack-based platform designed to bridge gaps in agricultural operations. It offers services like labor hiring, land leasing, and post-harvest management to promote sustainable and efficient farming practices, aligned with the UN's Sustainable Development Goals (SDGs).
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 👨‍🌾 **Labor Hiring Portal** – Post jobs or apply for agricultural work.
+- 🌱 **Land Leasing System** – Search and lease available lands; post your own land.
+- 🧺 **Post-Harvest Storage** – Register and search for storage services to reduce wastage.
+- 🔍 **Smart Search & Filters** – Easily find jobs, land, and services.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
